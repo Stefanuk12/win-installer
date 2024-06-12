@@ -42,6 +42,7 @@ $apps = @(
     "Postman.Postman"
     "PostgreSQL.PostgreSQL.16"
     "Docker.DockerDesktop"
+    "Microsoft.VisualStudio.2019.BuildTools"
     # Programming Languages
     "Rustlang.Rustup"
     "Rustlang.Rust.MSVC"
