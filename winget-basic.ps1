@@ -4,22 +4,63 @@
 ### Here can you add apps that you want to configure during installation ###
 # just add the app id from winget
 $graphical = @(
-    "ClamWin.ClamWin"
 );
 
 ### These apps are installed silently for all users ###
 # for msstore apps you need to specify the source like below
 
 $apps = @(
+    # File Sharing
+    "qBittorrent.qBittorrent"
+    # Compression
     "7zip.7zip"
-    "Foxit.FoxitReader"
-    "Microsoft.VCRedist.2015+.x64"
-    "Microsoft.VCRedist.2015+.x86"
-    "9NCBCSZSJRSB"          # Spotify
-    "9NKSQGP7F2NH"          # Whatsapp Desktop
-    "9WZDNCRFJ3TJ"          # Netflix
-    "9P6RC76MSMMJ"          # Prime Video
-    "9N7F2SM5D1LR"          # Windows HDR Calibration
+    # Messaging
+    "Discord.Discord"
+    "Vendicated.Vencord"
+    # Gaming
+    "Valve.Steam"
+    "EpicGames.EpicGamesLauncher"
+    "Mojang.MinecraftLauncher"
+    "Ubisoft.Connect"
+    "PrismLauncher.PrismLauncher"
+    "Parsec.Parsec"
+    "RazerInc.RazerInstaller"
+    # Media
+    "Spotify.Spotify"
+    "MedalB.V.Medal"
+    "PopcornTime.Popcorn-Time"
+    "OBSProject.OBSStudio"
+    # Developer Tools
+    "Git.Git"
+    "GitHub.cli"
+    "GitHub.GitHubDesktop"
+    "Microsoft.WindowsTerminal"
+    "Termius.Termius"
+    "Microsoft.VisualStudioCode"
+    "Microsoft.WSL"
+    "Canonical.Ubuntu.2204"
+    "Postman.Postman"
+    "PostgreSQL.PostgreSQL.16"
+    # Programming Languages
+    "Rustlang.Rustup"
+    "Rustlang.Rust.MSVC"
+    "Python.Python.3.12"
+    "OpenJS.NodeJS.LTS"
+    "pnpm.pnpm"
+    # Runtimes
+    "EclipseAdoptium.Temurin.8.JRE"
+    "EclipseAdoptium.Temurin.17.JRE"
+    # Online Storage
+    "Google.GoogleDrive"
+    "Nextcloud.NextcloudDesktop"
+    # Misc
+    "Bitwarden.Bitwarden"
+    "PrivateInternetAccess.PrivateInternetAccess"
+    "Microsoft.Office"
+    "Apple.iTunes"
+    "ALCPU.CoreTemp"
+    "REALiX.HWiNFO"
+    # Stuff
     "9PMMSR1CGPWG"          # HEIF-PictureExtension
     "9MVZQVXJBQ9V"          # AV1 VideoExtension
     "9NCTDW2W1BH8"          # Raw-PictureExtension
