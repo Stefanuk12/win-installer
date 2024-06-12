@@ -41,6 +41,7 @@ $apps = @(
     "Canonical.Ubuntu.2204"
     "Postman.Postman"
     "PostgreSQL.PostgreSQL.16"
+    "Docker.DockerDesktop"
     # Programming Languages
     "Rustlang.Rustup"
     "Rustlang.Rust.MSVC"
