@@ -45,7 +45,6 @@ $apps = @(
     "Microsoft.VisualStudio.2019.BuildTools"
     # Programming Languages
     "Rustlang.Rustup"
-    "Rustlang.Rust.MSVC"
     "Python.Python.3.12"
     "OpenJS.NodeJS.LTS"
     "pnpm.pnpm"
